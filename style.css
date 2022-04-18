@@ -42,15 +42,25 @@
 
 
 .avatar {
-    height: 34%;
-    padding: 15px;
+  border-radius: 50%;
+  height: auto;
+  margin: 22px;
+  padding: 7px;
 }
 
 .photo {
-  background-color: white;
-  height: 90%;
   border-radius: 50%;
-  margin: 15px;
+  height: 100%;
+  width: 100%;
+} 
+
+.border{
+  background-color: rgb(245, 251, 255);
+  border-radius: 50%;
+  height: 38%;
+  width: 78%;
+  margin-left: 18px;
+  margin-top: 12px;
 }
 
 
@@ -281,7 +291,7 @@ input[type=email], select, textarea {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #255656;
   color: white;
   padding: 11px 22px;
   border: none;
@@ -291,7 +301,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #258f29;
+  background-color: black;
 }
 
 /* Add a background color and some padding around the form */
