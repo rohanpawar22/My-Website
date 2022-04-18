@@ -47,10 +47,12 @@
 }
 
 .photo {
-    background-color: white;
-    height: 100%;
-    border-radius: 50%;
+  background-color: white;
+  height: 90%;
+  border-radius: 50%;
+  margin: 15px;
 }
+
 
 .data{
     width: 80%;
@@ -109,55 +111,6 @@ width: 206px;
     width: 260px;
 }
 
-/* Skills Block */
-
-
-.block{
-    background-color: #0006ff14;
-    position: absolute;
-    top: 14px;
-    right: 7px;
-    width: 367px;
-    height: 349px;
-}
-
-.container{
-    width: 100%; 
-
-}
-
-.skill{
-    text-align: left; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: rgb(0, 0, 0);
-}
-
-.html {
-    width: 90%;
-    background-color:rgb(66, 255, 66);
-} 
-
-.css {
-    width: 70%;
-    background-color:rgb(64, 64, 252);
-}
-
-.js {
-    width: 80%;
-    background-color:rgb(255, 53, 53);
-}
-
-.sql {
-    width: 73%;
-    background-color:rgb(182, 53, 238);
-}
-
-.linux { 
-    width: 65%;
-    background-color:rgb(247, 247, 70);
-}
-
 
 /* Timeline */
 
@@ -179,8 +132,8 @@ width: 206px;
     position: absolute;
     width: 6px;
     background-color: #000000d6;
-    top: -29px;
-    bottom: -26px;
+    top: -129px;
+    bottom: -129px;
     left: 76%;
     margin-left: -3px;
   }
@@ -245,7 +198,7 @@ width: 206px;
     left: 30px;
     border: medium solid rgb(170, 64, 240);
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(184 220 255); transparent transparent;
+    border-color: transparent rgb(184 220 255);
   }
   
   /* Fix the circle for containers on the right side */
@@ -293,3 +246,85 @@ width: 206px;
       left: 0%;
     }
   }
+
+
+
+/* Connect Me Form */
+
+
+
+/* Style input type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style input type="email", select elements and textareas */
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #258f29;
+}
+
+/* Add a background color and some padding around the form */
+ .form-container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 26px;
+  background-color: #89ffaa;
+  margin-left: 108px;
+  margin-bottom: 12px;
+  width: 50%;
+} 
+
+.logos{
+  display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 175px;
+    margin-bottom: 258px;
+}
+
+
+
+.git{
+  height: 91px;
+}
+
+.ig{
+  height: 85px;
+  margin-top: 18px;
+}
+
+.ld{
+  margin-bottom: 11px;
+  height: 90px;
+}
