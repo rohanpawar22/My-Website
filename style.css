@@ -36,10 +36,14 @@
  }
 
 .pad-decoration{
-    font-size: 32px;
-    padding-bottom: 18px;
+  font-size: 28px;
+  padding-bottom: 18px;
 }
 
+
+h1{
+  margin-top: 1px;
+}
 
 .avatar {
   border-radius: 50%;
@@ -57,10 +61,10 @@
 .border{
   background-color: rgb(245, 251, 255);
   border-radius: 50%;
-  height: 38%;
-  width: 78%;
-  margin-left: 18px;
-  margin-top: 12px;
+  height: 26%;
+  width: 64%;
+  margin-left: 34px;
+  margin-top: 48px;
 }
 
 
@@ -96,9 +100,22 @@
 .bitmoji{
     position: absolute;
     bottom: 0px;
-    right: 5px;
+    right: 40px;
     width: 90px;
 }
+
+/* SIMPLE BOUNCE */
+@keyframes bounce { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-16px); }
+}
+ 
+.bounce {
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
 
 .bitmoji-exp{
 position: absolute;
