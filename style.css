@@ -8,7 +8,8 @@
 
 .nav{
     background-color:#178dff;
-    width: 20%;
+    max-width: 250px;
+    min-width: 250px;
 }
 
 .menu{
@@ -47,7 +48,6 @@ h1{
 
 .avatar {
   border-radius: 50%;
-  height: auto;
   margin: 22px;
   padding: 7px;
 }
@@ -58,18 +58,18 @@ h1{
   width: 100%;
 } 
 
-.border{
+.avatar-border{
   background-color: rgb(245, 251, 255);
   border-radius: 50%;
-  height: 26%;
-  width: 64%;
-  margin-left: 34px;
-  margin-top: 48px;
+  /* height: 26%;
+  width: 64%; */
+  /* margin-left: 34px;
+  margin-top: 48px; */
 }
 
 
 .data{
-    width: 80%;
+    width: calc(100vw - 250px);
     height: 100vh;
     background-color: white;
     display: flex;
@@ -152,8 +152,7 @@ width: 206px;
     background-color: #000000d6;
     top: -129px;
     bottom: -129px;
-    left: 76%;
-    margin-left: -3px;
+    left: 14%;
   }
   
   /* Container around content */
@@ -187,7 +186,7 @@ width: 206px;
   
   /* Place the container to the right */
   .right {
-    left: 76%;
+    left: 16%;
     width: 84%;
   }
   
@@ -221,7 +220,7 @@ width: 206px;
   
   /* Fix the circle for containers on the right side */
   .right::after {
-    left: -16px;
+    left: -5%;
   }
   
   /* The actual content */
@@ -276,7 +275,7 @@ input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  border-radius: 25px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
@@ -290,22 +289,13 @@ input[type=email], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  border-radius: 25px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button */
-input[type=submit] {
-  background-color: #255656;
-  color: white;
-  padding: 11px 22px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
@@ -314,14 +304,39 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
  .form-container {
-  border-radius: 20px;
-  background-color: #f2f2f2;
-  padding: 26px;
-  background-color: #89ffaa;
-  margin-left: 108px;
-  margin-bottom: 12px;
-  width: 50%;
+    /* border-radius: 20px; */
+    /* background-color: #f2f2f2; */
+    /* padding: 26px; */
+    /* background-color: #89ffaa; */
+    margin-left: 12%;
+    /* margin-bottom: 12px; */
+    width: 50%;
 } 
+
+.form-field {
+  padding: 0px;
+}
+
+.button-container {
+  text-align: end;
+}
+
+.btn {
+  color: white;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background-color: darkred;
+}
+
+
+.submit-btn {
+  background-color: #255656;
+}
 
 .logos{
   display: flex;
@@ -345,4 +360,28 @@ input[type=submit]:hover {
 .ld{
   margin-bottom: 11px;
   height: 90px;
+}
+
+.connect-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.social {
+  padding: 40px 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 15px;
+}
+
+.img-logo {
+  max-width: 80px;
 }
