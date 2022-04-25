@@ -482,12 +482,13 @@ input[type="submit"]:hover {
 }
 
 .bluebackgrond {
-  background-color: rgb(224 240 255);
+  background-image: radial-gradient(circle, #ff4141, #ff4a49, #ff5251, #ff5a59, #ff6161);
 }
 
 .centre {
   margin-left: 40%;
   margin-top: 2%;
+  color: white;
 }
 
 .para {
@@ -537,7 +538,7 @@ input[type="submit"]:hover {
 .videostyle {
   padding: 24px 16px;
   width: 100%;
-  height: 75%;
+  height: 73%;
 }
 
 .name {
