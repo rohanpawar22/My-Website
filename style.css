@@ -81,6 +81,13 @@
   font-size: 24px;
 }
 
+.style-input{
+  color:#0070ff;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+
 /* bitmoji adjustment */
 
 .bitmoji {
