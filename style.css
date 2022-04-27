@@ -303,6 +303,10 @@ input[type="submit"]:hover {
   background-color: black;
 }
 
+input[type="reset"]:hover {
+  background-color: black;
+}
+
 /* Add a background color and some padding around the form */
 .form-container {
   /* border-radius: 20px; */
@@ -426,7 +430,7 @@ input[type="submit"]:hover {
 
 .skills-wrapper {
   position: absolute;
-  right: 4%;
+  right: 6%;
   top: 5%;
   height: 400px;
   width: 300px;
@@ -586,6 +590,7 @@ a.btn.project {
 a.btn.project:hover {
   background-color: #fff;
   color: #ff3628;
+  font-weight: 600;
 }
 
 @media (max-width: 480px) {
