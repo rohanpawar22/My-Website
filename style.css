@@ -251,6 +251,7 @@ body {
   left: 16%;
   width: 84%;
   animation: timeline_card_appear 1s ease-out forwards;
+  z-index: 1;
 }
 
 @keyframes timeline_card_appear {
