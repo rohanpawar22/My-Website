@@ -118,9 +118,9 @@
 
 .cloud {
   height: 28%;
-  position: relative;
-  left: 9%;
-  bottom: 4%;
+  position: absolute;
+  right: 7%;
+  bottom: 40%;
   animation: cloud_anime 1s ease-out forwards;
 }
 
@@ -141,10 +141,10 @@
 
 .clickonme {
   z-index: 1;
-  position: relative;
-  right: 3.1%;
-  bottom: 6.8%;
-  font-size: 20px;
+  position: absolute;
+  right: 9%;
+  top: 39%;
+  font-size: 18px;
   color: red;
   animation: know_more_anime 1s ease-out forwards;
 }
