@@ -251,7 +251,7 @@
   color: white;
 }
 
-/* Timeline */
+/* TIMELINE */
 
 /* Set a background color */
 body {
@@ -316,6 +316,12 @@ body {
     opacity: 0;
     transform: translateY(3rem);
   }
+}
+
+
+/* SKILLS */
+
+
 
   100% {
     opacity: 1;
